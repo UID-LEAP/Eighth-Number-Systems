@@ -6,146 +6,146 @@ const quizData = {
   questions: [
     {
       id: 1,
-      text: 'Evaluate: 20 - 8 * (-5)',
+      text: 'Find the difference: 2/3 - 1/2',
       alternatives: [
         {
           id: 1,
-          text: '60',
+          text: '1/3',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '-128',
+          text: '1/2',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: '-60',
+          text: '1/6',
           isCorrect: true,
         },
 		{
           id: 4,
-          text: '64',
+          text: '1/12',
           isCorrect: false,
         },
       ],
     },
     {
       id: 2,
-      text: 'Evaluate: -3(-4) - 8(-2)',
+      text: 'Multiply the following rational numbers: 5.45(1)',
       alternatives: [
         {
           id: 1,
-          text: '28',
+          text: '5.45',
           isCorrect: true,
         },
         {
           id: 2,
-          text: '4',
+          text: '0',
           isCorrect: false,
         },        
 		{
           id: 3,
-          text: '-4',
+          text: '1',
           isCorrect: false,
         },
 		        {
           id: 4,
-          text: '-28',
+          text: '5',
           isCorrect: false,
         },
       ],
     },
     {
       id: 3,
-      text: 'Evaluate: -1/2 + 2(-5/6)',
+      text: 'Evaluate the expression: 750 / 25 = ?',
       alternatives: [
         {
           id: 1,
-          text: '7/6',
+          text: '35',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '13/6',
+          text: '75',
           isCorrect: false,
         },
         {
           id: 3,
-          text: '3/4',
+          text: '25',
           isCorrect: false,
         },
         {
           id: 4,
-          text: '-13/6',
+          text: '30',
           isCorrect: true,
         },
       ],
     },
     {
       id: 4,
-      text: 'Solve for x in the following: 12(-6) - 8(x) = 0',
+      text: 'Evaluate the expression: 624 / 13',
       alternatives: [
         {
           id: 1,
-          text: '6',
+          text: '42',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '-9',
-          isCorrect: true,
-        },
-        {
-          id: 3,
-          text: '9',
+          text: '13',
           isCorrect: false,
         },
         {
+          id: 3,
+          text: '48',
+          isCorrect: true,
+        },
+        {
           id: 4,
-          text: '5',
+          text: '45',
           isCorrect: false,
         },      
       ],
     },
 	{
       id: 5,
-    text: 'Evaluate the expression: -4/8 * -12/16',
+    text: 'Evaluate the expression: 0.5268 / 12',
       alternatives: [
         {
           id: 1,
-          text: '-8/3',
-          isCorrect: false,
+          text: '0.0439',
+          isCorrect: true,
         },
         {
           id: 2,
-          text: '3/8',
+          text: 'undefined',
           isCorrect: false,
         },
         {
           id: 3,
-          text: '-3/8',
-          isCorrect: true,
+          text: '0.25',
+          isCorrect: false,
         },
         {
           id: 4,
-          text: '7/8',
+          text: '0.5',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 6,
-      text: 'Evaluate the expression: -8(5) + 12(-10) / (16 + 8(-2))',
+      text: 'Find the product: 2(5.825)',
       alternatives: [
         {
           id: 1,
-          text: '0',
+          text: '11',
           isCorrect: false,
         },
         {
           id: 2,
-          text: 'undefined',
+          text: '11.65',
           isCorrect: true,
         },
 		{
@@ -155,111 +155,106 @@ const quizData = {
         },
 		{
           id: 4,
-          text: '1',
+          text: '0.1165',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 7,
-    text: 'Which of the following is a correct interpretation of the expression -3 + (-8)?',
+    text: 'Find the quotient: 5.4 / 4.5',
       alternatives: [
         {
           id: 1,
-          text: 'The number that is 3 to the left of the 8 on the number line',
+          text: '1.5',
           isCorrect: false,
         },
         {
           id: 2,
-          text: 'The number that is 3 to the right of the 8 on the number line',
+          text: '0.9',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: 'The number that is 8 to the left of the -3 on the number line',
+          text: '1.2',
           isCorrect: true,
         },
 		{
           id: 4,
-          text: 'The number that is 8 to the right of -3 on the number line',
+          text: '9.9',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 8,
-      text: 'Select the best interpretation of the following inequality: |-4.5 - x| > 3',
+      text: 'Compare 12/15 to 13/30. Choose >, <, or =',
       alternatives: [
         {
           id: 1,
-          text: 'The distance between -4.5 and x is greater than 3',
+          text: '>',
           isCorrect: true,
         },
         {
           id: 2,
-          text: 'The distance between -4.5 and -x is greater than 3',
+          text: '<',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: 'The distance between 3 and -4.5 is greater than x',
+          text: '=',
           isCorrect: false,
-        },
-		{
-          id: 4,
-          text: 'The distance between -4.5 and x is equal to 3',
-          isCorrect: false,
-        },
+        }
       ],
     },
 	{
       id: 9,
-      text: 'Evaluate the following expression: -x - 4.5 = 6.7',
+      text: 'Factor the following number into its prime factors: 66',
       alternatives: [
         {
           id: 1,
-          text: '6.8',
+          text: '2 * 3 * 12',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '5.4',
+          text: '2 * 3 * 5 * 11',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: '-11.2',
+          text: '2 * 3 * 11',
           isCorrect: true,
         },
 		{
           id: 4,
-          text: '11.2',
+          text: '1 * 2 * 3 * 11 * 22 * 66',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 10,
-    text: 'Evaluate (a * b) / c where a = -10, b = 6, and c = -4.',
+    text: 'List all the factors of 35.',
       alternatives: [
         {
           id: 1,
-          text: '15',
+          text: '1, 35',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '-15',
+          text: '1, 5, 7, 35',
           isCorrect: true,
         },
 		{
           id: 3,
-          text: '4',
+          text: '1, 5, 7, 15, 35',
           isCorrect: false,
         },
 		{
           id: 4,
-          text: '-20',
+          text: '1, 3, 5, 35',
           isCorrect: false,
         },
       ],
