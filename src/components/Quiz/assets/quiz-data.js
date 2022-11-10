@@ -6,255 +6,265 @@ const quizData = {
   questions: [
     {
       id: 1,
-      text: 'Find the difference: 2/3 - 1/2',
+      text: 'Which of the following expressions is irrational?',
       alternatives: [
         {
           id: 1,
-          text: '1/3',
+          text: 'sqrt(81)',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '1/2',
+          text: '4.525',
           isCorrect: false,
         },
-		{
+		    {
           id: 3,
-          text: '1/6',
-          isCorrect: true,
-        },
-		{
-          id: 4,
-          text: '1/12',
+          text: '1/3',
           isCorrect: false,
+        },
+        {
+          id: 4,
+          text: 'sqrt(48)',
+          isCorrect: true,
         },
       ],
     },
     {
       id: 2,
-      text: 'Multiply the following rational numbers: 5.45(1)',
+      text: 'Which of these expressions is not irrational?',
       alternatives: [
         {
           id: 1,
-          text: '5.45',
-          isCorrect: true,
+          text: 'sqrt(71)',
+          isCorrect: false,
         },
         {
           id: 2,
-          text: '0',
+          text: 'sqrt(91)',
           isCorrect: false,
         },        
 		{
           id: 3,
-          text: '1',
-          isCorrect: false,
+          text: 'sqrt(64)',
+          isCorrect: true,
         },
 		        {
           id: 4,
-          text: '5',
+          text: 'sqrt(101)',
           isCorrect: false,
         },
       ],
     },
     {
       id: 3,
-      text: 'Evaluate the expression: 750 / 25 = ?',
+      text: 'Which of the following is an irrational number?',
       alternatives: [
         {
           id: 1,
-          text: '35',
+          text: '7',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '75',
+          text: '1.25',
           isCorrect: false,
         },
         {
           id: 3,
-          text: '25',
-          isCorrect: false,
+          text: 'sqrt(2)',
+          isCorrect: true,
         },
         {
           id: 4,
-          text: '30',
-          isCorrect: true,
+          text: 'sqrt(25)',
+          isCorrect: false,
         },
       ],
     },
     {
       id: 4,
-      text: 'Evaluate the expression: 624 / 13',
+      text: 'Which of the following choices represents a rational number?',
       alternatives: [
         {
           id: 1,
-          text: '42',
+          text: 'π',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '13',
+          text: 'sqrt(2)',
           isCorrect: false,
         },
         {
           id: 3,
-          text: '48',
-          isCorrect: true,
+          text: 'sqrt(3)',
+          isCorrect: false,
         },
         {
           id: 4,
-          text: '45',
-          isCorrect: false,
+          text: 'sqrt(16)',
+          isCorrect: true,
         },      
       ],
     },
 	{
       id: 5,
-    text: 'Evaluate the expression: 0.5268 / 12',
+    text: 'Which of the following choices represents a rational number?',
       alternatives: [
         {
           id: 1,
-          text: '0.0439',
-          isCorrect: true,
-        },
-        {
-          id: 2,
-          text: 'undefined',
+          text: 'sqrt(7)',
           isCorrect: false,
         },
         {
+          id: 2,
+          text: '0.75',
+          isCorrect: true,
+        },
+        {
           id: 3,
-          text: '0.25',
+          text: 'sqrt(5)',
           isCorrect: false,
         },
         {
           id: 4,
-          text: '0.5',
+          text: 'π',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 6,
-      text: 'Find the product: 2(5.825)',
+      text: 'Which point on the number line best represents sqrt(49)?',
+      img: 'question-6.png',
       alternatives: [
         {
           id: 1,
-          text: '11',
-          isCorrect: false,
+          text: 'K',
+          isCorrect: true,
         },
         {
           id: 2,
-          text: '11.65',
-          isCorrect: true,
+          text: 'L',
+          isCorrect: false,
         },
 		{
           id: 3,
-          text: '12',
+          text: 'I',
           isCorrect: false,
         },
 		{
           id: 4,
-          text: '0.1165',
+          text: 'J',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 7,
-    text: 'Find the quotient: 5.4 / 4.5',
+    text: 'Which point on the number line best represents π?',
+    img: 'question-7.png',
       alternatives: [
         {
           id: 1,
-          text: '1.5',
+          text: 'B',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '0.9',
-          isCorrect: false,
-        },
-		{
-          id: 3,
-          text: '1.2',
+          text: 'C',
           isCorrect: true,
         },
 		{
+          id: 3,
+          text: 'A',
+          isCorrect: false,
+        },
+		{
           id: 4,
-          text: '9.9',
+          text: 'D',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 8,
-      text: 'Compare 12/15 to 13/30. Choose >, <, or =',
+      text: 'Which point on the number line best represents sqrt(81)?',
+      img: 'question-8.png',
       alternatives: [
         {
           id: 1,
-          text: '>',
+          text: 'K',
           isCorrect: true,
         },
         {
           id: 2,
-          text: '<',
+          text: 'L',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: '=',
+          text: 'I',
+          isCorrect: false,
+        },
+        {
+          id: 4,
+          text: 'J',
           isCorrect: false,
         }
       ],
     },
 	{
       id: 9,
-      text: 'Factor the following number into its prime factors: 66',
+      text: 'Which point on the number line best represents sqrt(107)?',
+      img: 'question-9.png',
       alternatives: [
         {
           id: 1,
-          text: '2 * 3 * 12',
-          isCorrect: false,
+          text: 'L',
+          isCorrect: true,
         },
         {
           id: 2,
-          text: '2 * 3 * 5 * 11',
+          text: 'K',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: '2 * 3 * 11',
-          isCorrect: true,
+          text: 'M',
+          isCorrect: false,
         },
 		{
           id: 4,
-          text: '1 * 2 * 3 * 11 * 22 * 66',
+          text: 'J',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 10,
-    text: 'List all the factors of 35.',
+    text: 'Which point on the number line best represents sqrt(2)?',
+    img: 'question-10.png',
       alternatives: [
         {
           id: 1,
-          text: '1, 35',
+          text: 'D',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '1, 5, 7, 35',
+          text: 'A',
           isCorrect: true,
         },
 		{
           id: 3,
-          text: '1, 5, 7, 15, 35',
+          text: 'C',
           isCorrect: false,
         },
 		{
           id: 4,
-          text: '1, 3, 5, 35',
+          text: 'B',
           isCorrect: false,
         },
       ],
